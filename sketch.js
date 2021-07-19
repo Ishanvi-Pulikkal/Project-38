@@ -96,7 +96,7 @@ function draw() {
       }
     }
   }
-/*  if(monkey.collide(obstacleGroup)){
+  if(monkey.collide(obstacleGroup)){
     bananaGroup.destroyEach();
     obstacleGroup.destroyEach();
     bananaGroup.velocityX = 0
@@ -104,7 +104,7 @@ function draw() {
     gameOver.visible = true;
     over.visible = true;
     monkey.destroy();
-  }*/
+  }
    
   if(keyDown("RIGHT_ARROW")){
     monkey.x += 5;
